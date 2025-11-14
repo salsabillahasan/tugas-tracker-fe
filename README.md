@@ -1,16 +1,18 @@
-# React + Vite
+# Tugas Tracker - Front-End (FE)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Penjelasan Proyek Singkat
 
-Currently, two official plugins are available:
+Aplikasi Tugas Tracker adalah website yang dikembangkan untuk membantu mahasiswa mengelola beban kerja, melacak deadline tugas, dan memantau status pengerjaan tugas dari berbagai mata kuliah yang diambil. Aplikasi ini bertujuan menyediakan satu sistem terpusat untuk manajemen tugas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Struktur Folder (Folder Structure)
 
-## React Compiler
+Proyek Front-End ini dibangun menggunakan React (Vite). Berikut adalah struktur direktori utama yang digunakan:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **`src/**`: Direktori utama yang berisi semua kode sumber aplikasi React.
+* **`src/components`**: Berisi komponen-komponen kecil yang dapat digunakan berulang di seluruh aplikasi (e.g., Tombol, Kartu Tugas, Header).
+* **`src/pages`**: Berisi komponen utama yang merepresentasikan halaman penuh (e.g., Halaman Daftar Mata Kuliah, Halaman Detail Tugas).
+* **`src/api`**: Berisi fungsi-fungsi untuk mengelola permintaan data dan komunikasi dengan Back-End API (di Checkpoint 2 akan terhubung dengan API RISTEK).
+* **`src/assets`**: Tempat penyimpanan file statis seperti gambar, ikon, atau font kustom.
+* **`src/context` / `src/store`**: Digunakan untuk manajemen *state* global atau data aplikasi (jika diperlukan).
+* **`public/`**: Berisi file statis yang disajikan langsung, seperti `index.html` dan logo.
+* **`node_modules/`**: Berisi semua dependensi pihak ketiga yang diinstal melalui `npm install`.
