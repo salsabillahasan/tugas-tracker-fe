@@ -1,10 +1,10 @@
 # Tugas Tracker - Front-End (FE)
 
-## 🎯 Penjelasan Proyek Singkat
+## Penjelasan Proyek Singkat
 
 Aplikasi Tugas Tracker adalah website yang dikembangkan untuk membantu mahasiswa mengelola beban kerja, melacak deadline tugas, dan memantau status pengerjaan tugas dari berbagai mata kuliah yang diambil. Aplikasi ini bertujuan menyediakan satu sistem terpusat untuk manajemen tugas.
 
-## 📂 Struktur Folder (Folder Structure)
+## Struktur Folder (Folder Structure)
 
 Proyek Front-End ini dibangun menggunakan React (Vite). Berikut adalah struktur direktori utama yang digunakan:
 
